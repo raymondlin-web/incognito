@@ -1,0 +1,53 @@
+body {
+  background-color: white
+}
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  src: url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+a:active {
+  color: white;
+  text-decoration: none;
+}
+.Go img{
+  width: 35px;
+  height: 35px;
+  position: relative;
+}
+.Go {
+  background-color: #333333;
+  font-family: Product Sans;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+  max-height: 30px;
+  max-width: 130px;
+  position: sticky;
+  left: 45%;
+  transition: 0.7s;
+}
+.Go:hover {
+  background-color: #7d7d7d;
+  opacity: .75;
+}

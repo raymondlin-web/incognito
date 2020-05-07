@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  src: url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+body {
+  background-color: black;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  margin: 0;
+  padding: 0;
+}
+@keyframes fade {
+  from {background-color: black;}
+  to {background-color: #141414;}
+}
+.watch {
+  font-family: Product Sans;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+}
+.eye {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.ball {
+  width: 240px;
+  height: 120px;
+  background: #343434;
+  display: inline-block;
+  margin: 40px;
+  border-radius: 75%;
+  position: relative;
+}
+.follow {
+  width: 40px;
+  height: 40px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  border: 15px solid #141414;
+}
+.follow:hover {
+  background: red;
+}
+a:link {
+  color: black;
+  font-family: Product Sans;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  font-family: Product Sans;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  font-family: Product Sans;
+  text-decoration: none;
+}
+a:active {
+  color: black;
+  font-family: Product Sans;
+  text-decoration: none;
+}

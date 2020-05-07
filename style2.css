@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  src: url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+body {
+  background-color: white;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes fade {
+  from {background-color: white;}
+  to {background-color: black;}
+}
+.Welcome img {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Welcome {
+  background-color: #333333;
+  font-family: Product Sans;
+  border: none;
+  color: white;
+  list-style-position: inside;
+  margin-left: 350px;
+  margin-right: 350px;
+  padding: 30px;
+  padding-bottom: 225px;
+}
+.text {
+  font-size: 30px;
+  text-align: center;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+a:link {
+  color: #73a9ff;
+  text-decoration: none;
+}
+a:visited {
+  color: #73a9ff;
+  text-decoration: none;
+}
+a:hover {
+  color: #73a9ff;
+  text-decoration: none;
+}
+a:active {
+  color: #73a9ff;
+  text-decoration: none;
+}

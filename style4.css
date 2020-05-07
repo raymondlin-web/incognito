@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  src: url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+body {
+  background-color: #141414;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  margin: 0;
+  padding: 0;
+}
+@keyframes fade {
+  from {background-color: #141414;}
+  to {background-color: #0f0f0f;}
+}
+.hear {
+  font-family: Product Sans;
+  font-size: 50px;
+  text-align: center;
+}
+img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #0f0f0f;
+  text-decoration: none;
+}
+a:active {
+  color: black;
+  text-decoration: none;
+}
